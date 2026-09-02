@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b7bu136q11qoi"
-valid=false
+uid="uid://dqn0bdga1fodx"
+path="res://.godot/imported/cat.glb-ba1a4888828233f364aa32080191834c.scn"
 
 [deps]
 
 source_file="res://assets/models/glb/cat.glb"
+dest_files=["res://.godot/imported/cat.glb-ba1a4888828233f364aa32080191834c.scn"]
 
 [params]
 

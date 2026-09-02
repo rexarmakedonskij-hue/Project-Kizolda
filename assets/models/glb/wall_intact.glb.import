@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ckcoes2but65s"
-valid=false
+uid="uid://cutfoxlhk6vx1"
+path="res://.godot/imported/wall_intact.glb-54fc8e194589da2ca9a7d1d1e7d325cc.scn"
 
 [deps]
 
 source_file="res://assets/models/glb/wall_intact.glb"
+dest_files=["res://.godot/imported/wall_intact.glb-54fc8e194589da2ca9a7d1d1e7d325cc.scn"]
 
 [params]
 

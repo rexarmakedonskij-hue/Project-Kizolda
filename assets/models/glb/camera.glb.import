@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3gy45uotvxql"
-valid=false
+uid="uid://xovxcxgdwa1y"
+path="res://.godot/imported/camera.glb-97dd98f41e3df036ee55bf1269f92196.scn"
 
 [deps]
 
 source_file="res://assets/models/glb/camera.glb"
+dest_files=["res://.godot/imported/camera.glb-97dd98f41e3df036ee55bf1269f92196.scn"]
 
 [params]
 

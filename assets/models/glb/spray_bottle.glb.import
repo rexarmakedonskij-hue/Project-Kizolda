@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bkdl3hio8n74r"
-valid=false
+uid="uid://cc54sk87t8dl3"
+path="res://.godot/imported/spray_bottle.glb-b5efe0e8c9e18433b47c52ab029e9948.scn"
 
 [deps]
 
 source_file="res://assets/models/glb/spray_bottle.glb"
+dest_files=["res://.godot/imported/spray_bottle.glb-b5efe0e8c9e18433b47c52ab029e9948.scn"]
 
 [params]
 

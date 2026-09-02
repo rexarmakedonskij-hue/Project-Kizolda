@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://crih5hj55g2fm"
-valid=false
+uid="uid://ds5kxl4m8yvqq"
+path="res://.godot/imported/laptop.glb-b1de39a29f61fba540153e58d75ceea6.scn"
 
 [deps]
 
 source_file="res://assets/models/glb/laptop.glb"
+dest_files=["res://.godot/imported/laptop.glb-b1de39a29f61fba540153e58d75ceea6.scn"]
 
 [params]
 
