@@ -1,4 +1,5 @@
 extends Node3D
+
 var wallpaper_damage := 0.0
 func _ready() -> void:
 	for data in [[Vector3(0,-0.2,0),Vector3(12,0.3,10),Color("e9d8c1")],[Vector3(0,3,-5),Vector3(12,6,0.25),Color("f5c9c8")],[Vector3(-6,3,0),Vector3(0.25,6,10),Color("b8d9e6")],[Vector3(6,3,0),Vector3(0.25,6,10),Color("b8d9e6")],[Vector3(0,0.85,-1.7),Vector3(4,0.18,1.8),Color("8a5a44")],[Vector3(0,1.65,-2.28),Vector3(2.1,1.25,0.12),Color("303645")],[Vector3(0,1.65,-2.2),Vector3(1.86,1.02,0.04),Color("75c4e6")]]:
