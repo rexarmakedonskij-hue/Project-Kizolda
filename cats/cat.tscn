@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://cats/cat.gd" id="1"]
+[node name="Cat" type="Node3D"]
+script = ExtResource("1")
+[node name="ScratchTimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
