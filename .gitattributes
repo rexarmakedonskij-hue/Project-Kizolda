@@ -1,0 +1,19 @@
+* text=auto
+
+# Keep Godot and helper sources consistent across operating systems.
+*.gd text eol=lf
+*.gdshader text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.cfg text eol=lf
+*.import text eol=lf
+*.uid text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+
+# Editable models and runtime binary assets are stored in Git LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/models/glb/godot_mvp/*.bin filter=lfs diff=lfs merge=lfs -text

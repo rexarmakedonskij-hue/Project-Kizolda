@@ -3,3 +3,29 @@
 
 # macOS Finder metadata
 .DS_Store
+
+# Local exported game artifacts
+builds/*
+!builds/.gdignore
+
+# Generated test reports, screenshots and review captures
+tests/results/*
+!tests/results/.gdignore
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Blender autosave backups; editable .blend sources are versioned with LFS
+*.blend[0-9]*
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
