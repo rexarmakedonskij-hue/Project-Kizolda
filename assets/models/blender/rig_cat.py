@@ -1,4 +1,4 @@
-"""Build the cat's editable armature and baked scratch loop; called by build_mvp.py."""
+"""Build the cat's editable armature and baked scratch loop."""
 from mathutils import Vector, Matrix, Euler
 
 
