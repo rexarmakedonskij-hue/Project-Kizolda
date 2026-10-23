@@ -7,7 +7,6 @@ source=Path(r'C:\Users\rexar\Downloads\Little Kitty, Big City – Launch Trailer
 motion='--motion' in sys.argv
 out=ROOT/('tests/results/reference-motion' if motion else 'tests/results/reference-trailer')
 out.mkdir(parents=True,exist_ok=True)
-(out/'.gdignore').touch()
 bpy.ops.wm.read_factory_settings(use_empty=True)
 clip=bpy.data.movieclips.load(str(source))
 print('REFERENCE_METADATA',clip.size[:],clip.frame_duration,clip.fps)

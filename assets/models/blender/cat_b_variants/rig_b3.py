@@ -13,7 +13,7 @@ pieces=[o for o in scene.objects if o.type=='MESH' and o.name!='Studio floor']
 for o in pieces:
  bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
  bpy.ops.object.transform_apply(location=True,rotation=True,scale=True)
-# Coordinates keep the existing Godot-facing convention.
+# Coordinates keep the existing Y-up convention.
 def point(x,y,z):return Vector((x,-z,y))
 bpy.ops.object.armature_add();rig=bpy.context.object;rig.name='CatRig';rig.show_in_front=True
 bpy.ops.object.mode_set(mode='EDIT');rig.data.edit_bones.remove(rig.data.edit_bones[0])

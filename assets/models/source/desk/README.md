@@ -16,7 +16,7 @@ The old `assets/models/glb/desk.glb` is a discarded technical blockout. It is no
 2. Add visual detail: rounded/bevelled corners, drawer seams, handle, back braces and small feet.
 3. Create and assign a wood texture/material; unwrap every visible face and reserve separate UV space for trim and hardware.
 4. Export a binary `desk.glb` into `assets/models/glb/candidates/`.
-5. Open `tests/asset_review/desk_review.tscn` in Godot, inspect at close and gameplay distance, then replace the room desk only after approval.
+5. Inspect the candidate in a separate Unity review scene, inspect at close and gameplay distance, then replace the room desk only after approval.
 
 ## Acceptance check
 
@@ -24,4 +24,4 @@ The old `assets/models/glb/desk.glb` is a discarded technical blockout. It is no
 - no untextured primitive appearance;
 - readable drawer, shelf and leg construction at gameplay distance;
 - origin at floor centre; Y-up; consistent scale with the room;
-- GLB imports in Godot without errors.
+- The selected model format imports in Unity without errors.

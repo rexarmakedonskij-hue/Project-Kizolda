@@ -1,16 +1,12 @@
-# Godot editor cache and imported resources
-.godot/
 
 # macOS Finder metadata
 .DS_Store
 
 # Local exported game artifacts
 builds/*
-!builds/.gdignore
 
 # Generated test reports, screenshots and review captures
 tests/results/*
-!tests/results/.gdignore
 
 # Python caches and local environments
 __pycache__/
